@@ -1,0 +1,25 @@
+{
+  "name": "socket-chat",
+  "version": "1.0.0",
+  "description": "SocketChat is a real-time chat application built using Socket.IO, a JavaScript library for real-time web applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhav-goklani/Socket-Chat.git"
+  },
+  "author": "Vaibhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaibhav-goklani/Socket-Chat/issues"
+  },
+  "homepage": "https://github.com/vaibhav-goklani/Socket-Chat#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
